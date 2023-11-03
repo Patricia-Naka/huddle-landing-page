@@ -1,0 +1,95 @@
+body {
+     background: url(../images/bg-desktop.svg) var(--background-color) no-repeat;
+     background-size: contain;
+     margin: 0 auto;
+     font-family: 'Poppins';
+}
+
+.container {
+     padding: 20px;
+     display: flex;
+     position: relative;
+}
+
+.container .logo {
+     position: absolute;
+}
+
+.container .logo img {
+     max-width: 60%;
+}
+
+.container .image {
+     margin-top: 120px;
+}
+
+.container .image img {
+     max-width: 97%;
+}
+
+.content {
+     max-width: 390px;
+     margin-top: 160px;
+     text-align: left;
+     padding-left: 50px;
+     color: #fff;
+     line-height: 1.5;
+     letter-spacing: 0.5;
+}
+
+.content .heading {
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 15px;
+}
+
+.content .description {
+     margin-bottom: 15px;
+     font-size: 10px;
+     font-family: 'Open Sans' sans-serif;
+     font-weight: 400;
+}
+
+
+.content button {
+     font-size: 13px;
+     margin-top: 20px;
+     padding: 12px 50px;
+     width: 150px;
+     border-radius: 50px;
+     color: rgb(162, 127, 194);
+     background-color: #fff;
+     font-weight: 400;
+     cursor: pointer;
+     filter: drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.35));
+}
+
+.content button:hover {
+     background-color: var(--hover-soft-magenta);
+     color: #fff;
+     transition: 0.8 ease-in-out;
+}
+
+.social-icon {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 80px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+     color: #fff;
+     padding: 7px;
+     width: 60;
+     height: 30;
+     margin: 6px;
+     border: solid 1px #fff;
+     border-radius: 50%;
+}
+
+.social-icon a:hover {
+     color: var(--hover-soft-magenta);
+     border: var(--hover-soft-magenta) solid 1px;
+     transition: 0.8 ease-in-out;
+}

@@ -1,0 +1,55 @@
+@media(max-width:900px) {
+     body {
+          background: var(--background-color) url(../images/bg-mobile.svg) no-repeat;
+          background-size: contain;
+       
+     }
+
+     .container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto;
+     }
+
+     .container .logo{
+          position: absolute;
+          left: 0;
+          padding:0px;
+     }
+     
+
+     .container .logo img{
+          max-width: 60%;
+         
+          
+          
+     }
+
+     .container .image img{
+          margin-top: 0px;
+     
+     }
+
+     .content{
+          text-align: center;
+          font-size: 100%;
+          padding-left: 0;
+          margin-top: 0;
+
+     }
+
+     
+
+     .content .social-icon{
+          display: flex;
+          justify-content: center;
+          
+     }
+
+}
+
+
+
+
+   
