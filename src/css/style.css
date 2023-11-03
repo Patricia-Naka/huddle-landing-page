@@ -38,14 +38,14 @@ body {
 }
 
 .content .heading {
-     font-size: 20px;
+     font-size: 30px;
      font-weight: 600;
      margin-bottom: 15px;
 }
 
 .content .description {
      margin-bottom: 15px;
-     font-size: 10px;
+     font-size: 18px;
      font-family: 'Open Sans' sans-serif;
      font-weight: 400;
 }
