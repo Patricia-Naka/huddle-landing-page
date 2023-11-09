@@ -1,14 +1,18 @@
 body {
-     background: url(../images/bg-desktop.svg) var(--background-color) no-repeat;
+     background: url(../images/bg-desktop.svg) var(--background-color)  center no-repeat;
      background-size: contain;
      margin: 0 auto;
      font-family: 'Poppins';
+     min-height: 100vh;
+     max-width: 1440px;   
+     
 }
 
 .container {
      padding: 20px;
      display: flex;
      position: relative;
+     
 }
 
 .container .logo {
@@ -72,21 +76,27 @@ body {
 
 .social-icon {
      display: flex;
+     flex-direction: row;
      justify-content: flex-end;
-     margin-top: 80px;
+     margin-top: 60px;
 }
 
-.facebook,
-.twitter,
-.instagram {
+.social-icon a {
+     display: flex;
      color: #fff;
      padding: 7px;
-     width: 60;
-     height: 30;
+     justify-content: center;
+     width: 45px;
+     height: 45px; 
      margin: 6px;
      border: solid 1px #fff;
      border-radius: 50%;
-}
+     align-items: center;
+     font-size: 25px;
+     justify-content: center;
+} 
+
+
 
 .social-icon a:hover {
      color: var(--hover-soft-magenta);
